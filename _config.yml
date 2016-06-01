@@ -1,14 +1,26 @@
-layout_spectrum: 0.58901900309138
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 typography_spectrum: 0.9697888907976449
 color:
-  brandStrength: 0.4324273532256484
-  lightness: 0.7781905366573483
   saturation: 0.7581535938661546
+  brandStrength: 0.4324273532256484
   rhythmicContrast: 0.6260166799183935
   brandColors:
-    - '#3C493F'
-    - '#7E8D85'
-    - '#B3BFB8'
-    - '#F0F7F4'
-    - '#A2E3C4'
+    - '#FCFFF5'
+    - '#D1DBBD'
+    - '#91AA9D'
+    - '#3E606F'
+    - '#193441'
+  lightness: 0.7781905366573483
+layout_spectrum: 0.0483871
 name: tehsoundguy
